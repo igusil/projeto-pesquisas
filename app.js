@@ -24,7 +24,7 @@ const fetchPages = async (searchValue) => {
     const results = data.query.search;
     if (results.length < 1) {
       resultsDOM.innerHTML =
-        '<div class="error">no matching results. Please try again</div>';
+        '<div class="error">Não foi encontrado resultado. Por favor tente novamente.</div>';
       return;
     }
     renderResults(results);
