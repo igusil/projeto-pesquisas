@@ -220,6 +220,7 @@ Wikipedia
   border-right: transparent;
   border-top-left-radius: var(--borderRadius);
   border-bottom-left-radius: var(--borderRadius);
+  padding-bottom: 20px;
 }
 .submit-btn {
   border: 1px solid var(--primary-500);
