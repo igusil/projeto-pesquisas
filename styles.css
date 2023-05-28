@@ -215,12 +215,15 @@ Wikipedia
   padding: 0.375rem 0.75rem;
   background: var(--backgroundColor);
   border: 1px solid var(--grey-200);
+  padding-bottom: 20px;
+  
 }
 .form-input {
   border-right: transparent;
   border-top-left-radius: var(--borderRadius);
   border-bottom-left-radius: var(--borderRadius);
-  padding-bottom: 20px;
+  width: 30rem;
+  font-size: 23pt;
 }
 .submit-btn {
   border: 1px solid var(--primary-500);
@@ -232,6 +235,10 @@ Wikipedia
   color: var(--white);
   transition: var(--transition);
   cursor: pointer;
+  font-size: 15pt;
+  width: 8rem;
+  font-weight: bolder;
+  text-align: center;
 }
 .submit-btn:hover {
   color: var(--primary-900);
