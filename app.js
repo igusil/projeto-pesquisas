@@ -29,7 +29,7 @@ const fetchPages = async (searchValue) => {
     }
     renderResults(results);
   } catch (error) {
-    resultsDOM.innerHTML = '<div class="error"> there was an error...</div>';
+    resultsDOM.innerHTML = '<div class="error"> Existe algum erro...</div>';
   }
 };
 
