@@ -10,7 +10,7 @@ formDOM.addEventListener('submit', (e) => {
   const value = inputDOM.value;
   if (!value) {
     resultsDOM.innerHTML =
-      '<div class="error"> please enter valid search term</div>';
+      '<div class="error"> por favor, insira um termo de pesquisa válido</div>';
     return;
   }
   fetchPages(value);
